@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task Planner 1.0</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="#"><h1>Task Planner</h1></a>
+		</div>
+	</header>
+	<section class="createtask">
+		<div class="container">
+			<input type="text" class="nameinput" placeholder="Task name">
+			<div class="priority">
+				<span>Priority</span>
+				<button class="high priorbtn">High</button>
+				<button class="med priorbtn">Med</button>
+				<button class="low priorbtn">Low</button>
+				<button class="ns priorbtn">Not stated</button>
+			</div>
+			<button class="createbtn">Create a new task</button>
+		</div>
+	</section>
+	<section class="tasks">
+		<div class="container">
+			<div class="task">
+				<i class="high prior"></i>
+				<span class="taskname">Go to work</span>
+				<div class="doneness">
+					<button class="done">Done</button>
+					<button class="notdone">Not done</button>
+				</div>
+			</div>
+			<div class="task">
+				<i class="med prior"></i>
+				<span class="taskname">Make a healthy breakfast</span>
+				<div class="doneness">
+					<button class="done">Done</button>
+					<button class="notdone">Not done</button>
+				</div>
+			</div>
+			<div class="task">
+				<i class="ns prior"></i>
+				<span class="taskname">Work on a project</span>
+				<div class="doneness">
+					<button class="done">Done</button>
+					<button class="notdone">Not done</button>
+				</div>
+			</div>
+			<div class="task">
+				<i class="ns prior"></i>
+				<span class="taskname">Meet with John</span>
+				<div class="doneness">
+					<button class="done">Done</button>
+					<button class="notdone">Not done</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="main.js"></script>
+</body>
+</html>

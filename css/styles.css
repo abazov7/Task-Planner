@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Arial, sans-serif;
+}
+.container {
+	max-width: 1360px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	height: 100px;
+	background-color: #cc0013;
+}
+h1 {
+	margin: 0;
+	color: #fff;
+	font-size: 2.2em;
+	font-weight: 400;
+	vertical-align: middle;
+	line-height: 90px;
+}
+section {
+	padding-top: 20px;
+}
+.createbtn {
+	width: 100%;
+	height: 100px;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 600;
+	background-color: transparent;
+	border: 2px solid black;
+	font-family: Roboto;
+	margin-top: 20px;
+}
+.createbtn:focus {
+	border: none;
+}
+input {
+	box-sizing: border-box;
+	margin-top: 20px;
+	padding-left: 10px;
+	width: 100%;
+	height: 60px;
+	font-family: Roboto;
+	font-size: 1.2em;
+	border: 1px solid #b4b4b4;
+}
+.priority {
+	margin-top: 20px;
+	text-align: center;
+}
+.priority span {
+	font-size: 1.4em;
+	line-height: 10px;
+	margin-right: 10px;
+}
+.priorbtn {
+	height: 80px;
+	width: 22%;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	margin-left: 15px;
+}
+.high {background-color: #cc0013}
+.med {background-color: #ffcc00}
+.low {background-color: #fff600}
+.ns {background-color: #b2b2b2}
+.tasks {
+	margin-top: 20px;
+}
+.task {
+	margin: 40px 0;
+}
+.prior {
+	height: 100px;
+	width: 10px;
+	display: inline-block;
+}
+.taskname {
+	font-size: 1.4em;
+	font-weight: 500;
+	padding-left: 20px;
+}
+i {vertical-align: middle}
+.doneness {
+	display: inline-block;
+	float: right;
+}
+.done, .notdone {
+	display: block;
+	width: 220px;
+	height: 50px;
+	border: none;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	line-height: 50px
+}
+.done {
+	margin-bottom: 5px;
+	background-color: #73df00;
+}
+.notdone {background-color: #ff0000}
+.doneimg, .notdoneimg {
+	padding-left: 10px;
+	height: 25px;
+	vertical-align: middle;
+	padding-bottom: 6px;
+}
